@@ -1,0 +1,19 @@
+.clicker {
+    width:350px;
+    height:50px;
+    outline:none;
+    cursor:pointer;
+   padding-top: 50px;
+   border: 1px solid black;
+   margin-left: 300px;
+    }
+    
+    .hiddendiv{
+    display:none;
+    height:200px;
+    
+    }
+    
+    .clicker:focus + .hiddendiv{
+    display:block;
+    }
